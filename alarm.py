@@ -44,7 +44,7 @@ while True:                                             #Wanneer iets 1 is doe h
                         print("Alarm uitgeschakeld")            #Geef aan dat het alarm is uitgeschakeld
                 else:                                   #als de code verkeerd is:
                         GPIO.output(12, False)          #zet het groene lampje uit
-                        print("Verkeerde code, probeer opnieuw")        #Laat de gebruiker opnieuw code opgeven
+                        print("Verkeerde code, druk de knop opnieuw in en probeer opnieuw")        #Laat de gebruiker opnieuw code opgeven
                         continue
         blinkenrood()
 
